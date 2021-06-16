@@ -154,9 +154,4 @@ class Comics extends BaseController
 
         return redirect()->to('/comics');
     }
-
-    public function new()
-    {
-        echo "test new";
-    }
 }
