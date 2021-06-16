@@ -154,4 +154,9 @@ class Comics extends BaseController
 
         return redirect()->to('/comics');
     }
+
+    public function test()
+    {
+        dd('klklk');
+    }
 }
